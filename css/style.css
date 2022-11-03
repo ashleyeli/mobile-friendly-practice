@@ -46,15 +46,18 @@ h4{
 @media screen and (min-width:480px) {
     h2{
     background-color: #8c0ffa;
+    text-shadow:#a30253 1px 1px 10px;
 }
 }
 @media screen and (min-width:768px) {
     h2{
     background-color: #b969fe;
+    text-shadow:#a30253 1px 1px 10px;
 }
 }
 @media screen and (min-width:1024px) {
     h2{
     background-color: #000080;
+    text-shadow:#a30253 1px 1px 10px;
 }
 }
