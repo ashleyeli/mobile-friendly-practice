@@ -9,6 +9,15 @@ body{
 .wave{ 
     position: relative;
 }
+h2{
+    text-align:center;
+    background-color:#b969fe;
+    color:#ffb1d8;
+    text-shadow:#a30253 1px 1px 10px;
+    width:auto;
+    height: 40px;
+    padding: 30px;
+}
 h3{
     color: #8c0ffa;
     text-shadow: #000080 1px 1px 10px;
@@ -33,4 +42,19 @@ h4{
   float: right;
   text-align: right;
   padding: 20px;
+}
+@media screen and (min-width:480px) {
+    h2{
+    background-color: #8c0ffa;
+}
+}
+@media screen and (min-width:768px) {
+    h2{
+    background-color: #b969fe;
+}
+}
+@media screen and (min-width:1024px) {
+    h2{
+    background-color: #000080;
+}
 }
